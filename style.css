@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+:root{  
+  --primary-color: #008080;
+  --secondary-color: #323232;
+  --feature-bg-1: #FFF8EF;
+  --feature-bg-2: #EAFFEA;
+  --feature-bg-3: #EAF6FF;
+  --feature-bg-4: #FFE7ED;
+  --why--bg: #008080;
+  --rec-bg: #f4f4f4;
+}
+.btn:hover{
+  background-color: var(--primary-color)!important;
+}
+.button{
+  text-align: right;
+}
+.btn-green{
+  background-color: var(--primary-color)!important;
+  width: 5%!important;
+  border-radius: 7px;
+  border: none;
+  padding:5px;
+  
+}
+.btn-green:hover{
+  background-color: #015353!important;
+  cursor: pointer;
+}
+/* intro */
+.intro-main{
+  color: var(--primary-color);
+}
+.intro-sub{
+  color: var(--secondary-color);
+}
+.features-body, .intro, .why, .recomendation, .sign-up{
+  margin-bottom: 140px;
+}
+
+/* features */
+.features h3, .features-left h3, .features-right h3{
+  color: var(--primary-color);
+}
+.features p, .features-left p, .features-right p{
+  color: var(--secondary-color);
+}
+.features-left{
+  margin-right: 20px;
+  margin-top: 100px;
+}
+.features-right btn{
+  width: 10%!important;
+}
+.features-right p, .features-left p{
+  padding-right: 50px;
+}
+.features-1{
+  border-radius: 13px;
+  background-color: var(--feature-bg-1);
+  padding: 20px 35px 0px 35px;
+}
+.features-1 img{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin-left: 115px;
+  margin-top: 20px;
+}
+.features-2{
+  margin-top: 40px;
+  border-radius: 13px;
+  background-color: var(--feature-bg-2);
+  padding: 20px 35px 0px 35px;
+}
+.features-2 img{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin-left: 115px;
+  margin-top: 20px;
+}
+.features-3{
+  
+  border-radius: 13px;
+  background-color: var(--feature-bg-3);
+  padding: 20px 35px 0px 35px;
+}
+.features-3 img{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin-left: 115px;
+  margin-top: 20px;
+}
+.features-4{
+  margin-top: 40px;
+  border-radius: 13px;
+  background-color: var(--feature-bg-1);
+  padding: 20px 35px 0px 35px;
+}
+.features-4 img{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin-left: 115px;
+  margin-top: 20px;
+}
+/* why */
+.why-header{
+  margin-left: 120px;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.why .link, .why .link a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+.why .link:hover{
+  text-decoration: none;
+}
+.why-left{
+  padding-top: 100px;
+  padding-left: 35px;
+  padding-right: 150px;
+  color: #fff;
+  
+  background-color: var(--why--bg);
+  height: auto;
+ 
+}
+.why-left h4{
+  line-height: 2.2;
+}
+.why-left span{
+  margin-top: 30px;
+}
+/* recommendation */
+.recommendation{
+  background-color: var(--rec-bg);
+  padding: 40px 120px 40px 120px;
+  
+}
+.rec-right p{
+  margin-top: 220px;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+.rec-left img:hover{
+  cursor: pointer;
+}
+.rec-right span{
+  font-style: italic;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+/* sign-up */
+.sign-up{
+  margin-top: 140px;
+ 
+}
+.app-store-card{
+  box-shadow: 0 4px 3px -3px gray;
+  border: 0.3px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 40%;
+  width: 40%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.header i{
+  color: gold;
+  padding-top: 9px;
+}
+.header .rating{
+  color: var(--primary-color);
+}
+.header .rating span{
+  font-weight: 600;
+  font-size: 19px;
+
+}
+.app-store-card .footer,.sign-up .footer span a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+.app-store-card .footer span a:hover{
+  text-decoration: none;
+}
+.sign-up-card{
+  margin-left: 20px;
+  max-width: 60%;
+  width: 60%;
+  border-radius: 10px;
+  background-color: var(--why--bg);
+  box-shadow: 0 4px 3px -3px gray;
+  padding: 60px 20px 30px 20px;
+}
+.sign-up-card h3{
+  color: #fff;
+  margin-bottom: 10px;
+}
+.sign-up-card input, button{
+  border-radius: 5px;
+}
+.sign-up-card button{
+  background-color: #fff;
+}
+/* investors */
+.investors-title{
+  color: var(--primary-color);
+}
+/* footer */
+footer{
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+ 
+  background-color: var(--primary-color);
+}
+/* .footer-body{
+  justify-content: space-evenly;
+} */
+footer .bg-green{
+  background-color: var(--primary-color);
+}
+footer .fa{
+  color: #fff;
+}
