@@ -17,7 +17,21 @@ body{
   --why--bg: #008080;
   --rec-bg: #f4f4f4;
 }
-.btn:hover{
+.btn a{
+  color: rgb(0, 156, 0)!important;
+}
+.color-white{
+  color: #fff;
+}
+.color-green, .color-green a{
+  color: var(--primary-color);
+}
+.w-40{
+  max-width: 40%;
+}
+.btn:hover, .btn a:hover{
+  text-decoration: none;
+  color: #fff!important;
   background-color: var(--primary-color)!important;
 }
 .button{
@@ -241,4 +255,56 @@ footer .bg-green{
 }
 footer .fa{
   color: #fff;
+}
+
+/* ============== */
+/* signin page */
+.signin-body{
+  margin-top: 130px;
+  max-width: 100%;
+}
+.signin-text{
+  width: 40%;
+  margin-top: 30px;
+  max-width: 40%;
+}
+.signin-form{
+  max-width: 60%;
+  width: 50%;
+  margin-left: 40px;
+}
+.signin-form form{
+  border: 0.3px solid #959595;
+  padding-top: 20px;
+  padding: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.newuser, span a{
+  font-size: 12px;
+  margin-top: 10px;
+}
+.newuser a{
+  color: var(--primary-color);
+}
+.newuser a:hover, span a:hover{
+  text-decoration: none;
+  color:#006666;
+}
+
+.signin-btn button{
+  background-color: var(--primary-color)!important;
+  width: 100px;
+  border-radius: 7px;
+  border: none;
+  padding:5px;
+  cursor: pointer;
+}
+.signin-btn button:hover{
+  background-color: #015353!important;
+  
 }
